@@ -11,12 +11,12 @@
       "RelativeMoniker": "D:0:0:{D2DA7CCC-36CA-4D02-9075-8ACE8338EF81}|ConsultaCep\\ConsultaCep.csproj|solutionrelative:consultacep\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2DA7CCC-36CA-4D02-9075-8ACE8338EF81}|ConsultaCep\\ConsultaCep.csproj|c:\\users\\aluno_manha\\source\\repos\\consultacep\\consultacep\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2DA7CCC-36CA-4D02-9075-8ACE8338EF81}|ConsultaCep\\ConsultaCep.csproj|solutionrelative:consultacep\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D2DA7CCC-36CA-4D02-9075-8ACE8338EF81}|ConsultaCep\\ConsultaCep.csproj|c:\\users\\aluno_manha\\source\\repos\\consultacep\\consultacep\\servercep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2DA7CCC-36CA-4D02-9075-8ACE8338EF81}|ConsultaCep\\ConsultaCep.csproj|solutionrelative:consultacep\\servercep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2DA7CCC-36CA-4D02-9075-8ACE8338EF81}|ConsultaCep\\ConsultaCep.csproj|c:\\users\\aluno_manha\\source\\repos\\consultacep\\consultacep\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2DA7CCC-36CA-4D02-9075-8ACE8338EF81}|ConsultaCep\\ConsultaCep.csproj|solutionrelative:consultacep\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,34 +26,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 244,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ServerCep.cs",
-              "DocumentMoniker": "C:\\Users\\Aluno_Manha\\source\\repos\\ConsultaCep\\ConsultaCep\\ServerCep.cs",
-              "RelativeDocumentMoniker": "ConsultaCep\\ServerCep.cs",
-              "ToolTip": "C:\\Users\\Aluno_Manha\\source\\repos\\ConsultaCep\\ConsultaCep\\ServerCep.cs",
-              "RelativeToolTip": "ConsultaCep\\ServerCep.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T13:52:00.88Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Endereco.cs",
-              "DocumentMoniker": "C:\\Users\\Aluno_Manha\\source\\repos\\ConsultaCep\\ConsultaCep\\Endereco.cs",
-              "RelativeDocumentMoniker": "ConsultaCep\\Endereco.cs",
-              "ToolTip": "C:\\Users\\Aluno_Manha\\source\\repos\\ConsultaCep\\ConsultaCep\\Endereco.cs",
-              "RelativeToolTip": "ConsultaCep\\Endereco.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAgAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T13:40:18.468Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -62,7 +36,7 @@
               "RelativeDocumentMoniker": "ConsultaCep\\Form1.cs",
               "ToolTip": "C:\\Users\\Aluno_Manha\\source\\repos\\ConsultaCep\\ConsultaCep\\Form1.cs",
               "RelativeToolTip": "ConsultaCep\\Form1.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAkwCoAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAvwDAAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-05T13:26:50.733Z",
               "EditorCaption": ""
@@ -76,8 +50,34 @@
               "ToolTip": "C:\\Users\\Aluno_Manha\\source\\repos\\ConsultaCep\\ConsultaCep\\Form1.cs [Projeto]",
               "RelativeToolTip": "ConsultaCep\\Form1.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T13:12:46.169Z",
+              "WhenOpened": "2025-05-06T10:39:14.213Z",
               "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ServerCep.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno_Manha\\source\\repos\\ConsultaCep\\ConsultaCep\\ServerCep.cs",
+              "RelativeDocumentMoniker": "ConsultaCep\\ServerCep.cs",
+              "ToolTip": "C:\\Users\\Aluno_Manha\\source\\repos\\ConsultaCep\\ConsultaCep\\ServerCep.cs",
+              "RelativeToolTip": "ConsultaCep\\ServerCep.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T13:52:00.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Endereco.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno_Manha\\source\\repos\\ConsultaCep\\ConsultaCep\\Endereco.cs",
+              "RelativeDocumentMoniker": "ConsultaCep\\Endereco.cs",
+              "ToolTip": "C:\\Users\\Aluno_Manha\\source\\repos\\ConsultaCep\\ConsultaCep\\Endereco.cs",
+              "RelativeToolTip": "ConsultaCep\\Endereco.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwCcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T13:40:18.468Z",
+              "EditorCaption": ""
             }
           ]
         }

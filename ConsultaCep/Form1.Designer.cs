@@ -48,11 +48,13 @@
             label2 = new Label();
             pictureBox4 = new PictureBox();
             txtCep = new MaskedTextBox();
+            pictureBox5 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             SuspendLayout();
             // 
             // btnBuscar
@@ -61,7 +63,7 @@
             btnBuscar.Cursor = Cursors.Hand;
             btnBuscar.Font = new Font("Arial", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnBuscar.ForeColor = SystemColors.ButtonHighlight;
-            btnBuscar.Location = new Point(191, 322);
+            btnBuscar.Location = new Point(186, 321);
             btnBuscar.Margin = new Padding(4, 5, 4, 5);
             btnBuscar.Name = "btnBuscar";
             btnBuscar.Size = new Size(96, 39);
@@ -73,12 +75,12 @@
             // lblBuscaCep
             // 
             lblBuscaCep.AutoSize = true;
-            lblBuscaCep.Font = new Font("Arial", 39.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblBuscaCep.Font = new Font("Arial", 48.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblBuscaCep.ForeColor = SystemColors.HotTrack;
-            lblBuscaCep.Location = new Point(229, 111);
+            lblBuscaCep.Location = new Point(225, 113);
             lblBuscaCep.Margin = new Padding(4, 0, 4, 0);
             lblBuscaCep.Name = "lblBuscaCep";
-            lblBuscaCep.Size = new Size(298, 62);
+            lblBuscaCep.Size = new Size(369, 77);
             lblBuscaCep.TabIndex = 1;
             lblBuscaCep.Text = "Busca Cep";
             // 
@@ -152,7 +154,7 @@
             // 
             lblMostrarLogradouro.AutoSize = true;
             lblMostrarLogradouro.Font = new Font("Arial Narrow", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblMostrarLogradouro.Location = new Point(287, 391);
+            lblMostrarLogradouro.Location = new Point(175, 391);
             lblMostrarLogradouro.Margin = new Padding(4, 0, 4, 0);
             lblMostrarLogradouro.Name = "lblMostrarLogradouro";
             lblMostrarLogradouro.Size = new Size(0, 25);
@@ -162,7 +164,7 @@
             // 
             lblMostrarBairro.AutoSize = true;
             lblMostrarBairro.Font = new Font("Arial Narrow", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblMostrarBairro.Location = new Point(287, 434);
+            lblMostrarBairro.Location = new Point(175, 434);
             lblMostrarBairro.Margin = new Padding(4, 0, 4, 0);
             lblMostrarBairro.Name = "lblMostrarBairro";
             lblMostrarBairro.Size = new Size(0, 25);
@@ -172,7 +174,7 @@
             // 
             lblMostrarCidade.AutoSize = true;
             lblMostrarCidade.Font = new Font("Arial Narrow", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblMostrarCidade.Location = new Point(287, 477);
+            lblMostrarCidade.Location = new Point(175, 477);
             lblMostrarCidade.Margin = new Padding(4, 0, 4, 0);
             lblMostrarCidade.Name = "lblMostrarCidade";
             lblMostrarCidade.Size = new Size(0, 25);
@@ -182,7 +184,7 @@
             // 
             lblMostrarUF.AutoSize = true;
             lblMostrarUF.Font = new Font("Arial Narrow", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblMostrarUF.Location = new Point(287, 520);
+            lblMostrarUF.Location = new Point(175, 520);
             lblMostrarUF.Margin = new Padding(4, 0, 4, 0);
             lblMostrarUF.Name = "lblMostrarUF";
             lblMostrarUF.Size = new Size(0, 25);
@@ -197,7 +199,7 @@
             panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(704, 43);
+            panel1.Size = new Size(625, 43);
             panel1.TabIndex = 13;
             panel1.Paint += panel1_Paint;
             panel1.MouseDown += panel1_MouseDown;
@@ -209,7 +211,7 @@
             pictureBox3.BackColor = SystemColors.Highlight;
             pictureBox3.Cursor = Cursors.Hand;
             pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.Location = new Point(635, 10);
+            pictureBox3.Location = new Point(557, 10);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(24, 24);
             pictureBox3.SizeMode = PictureBoxSizeMode.AutoSize;
@@ -222,7 +224,7 @@
             pictureBox2.BackColor = SystemColors.Highlight;
             pictureBox2.Cursor = Cursors.Hand;
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(668, 10);
+            pictureBox2.Location = new Point(590, 10);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(24, 24);
             pictureBox2.SizeMode = PictureBoxSizeMode.AutoSize;
@@ -245,12 +247,12 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.Font = new Font("Kunstler Script", 30.25F, FontStyle.Bold);
             label2.ForeColor = Color.Black;
-            label2.Location = new Point(149, 584);
+            label2.Location = new Point(7, 583);
             label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
-            label2.Size = new Size(399, 32);
+            label2.Size = new Size(368, 44);
             label2.TabIndex = 15;
             label2.Text = "Desenvolvido por: Matheusar";
             // 
@@ -273,13 +275,25 @@
             txtCep.Name = "txtCep";
             txtCep.Size = new Size(131, 29);
             txtCep.TabIndex = 17;
-            txtCep.MaskInputRejected += this.txtCep_MaskInputRejected;
+            txtCep.MaskInputRejected += txtCep_MaskInputRejected;
+            // 
+            // pictureBox5
+            // 
+            pictureBox5.BackColor = SystemColors.Control;
+            pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
+            pictureBox5.Location = new Point(391, 385);
+            pictureBox5.Name = "pictureBox5";
+            pictureBox5.Size = new Size(222, 242);
+            pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox5.TabIndex = 18;
+            pictureBox5.TabStop = false;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(9F, 23F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(704, 625);
+            ClientSize = new Size(625, 625);
+            Controls.Add(pictureBox5);
             Controls.Add(txtCep);
             Controls.Add(pictureBox4);
             Controls.Add(label2);
@@ -301,7 +315,8 @@
             Icon = (Icon)resources.GetObject("$this.Icon");
             Margin = new Padding(4, 5, 4, 5);
             Name = "Form1";
-            Text = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Acha Cep 2025";
             Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel1.ResumeLayout(false);
@@ -309,6 +324,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -317,7 +333,6 @@
 
         private Button btnBuscar;
         private Label lblBuscaCep;
-        private TextBox txtCep;
         private PictureBox pictureBox1;
         private Label lblCEP;
         private Label lblLogradouro;
@@ -335,5 +350,6 @@
         private PictureBox pictureBox2;
         private PictureBox pictureBox4;
         private MaskedTextBox txtCep;
+        private PictureBox pictureBox5;
     }
 }

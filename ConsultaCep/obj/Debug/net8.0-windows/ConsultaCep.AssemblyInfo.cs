@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConsultaCep")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a348c349bb40434a807cd0da3c0cd7448f6eb35c")]
 [assembly: System.Reflection.AssemblyProductAttribute("ConsultaCep")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConsultaCep")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

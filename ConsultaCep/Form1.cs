@@ -33,7 +33,7 @@ namespace ConsultaCep
                 {
                     Endereco endereco = ServerCep.BuscarCep(txtCep.Text);
                     lblMostrarLogradouro.Text = endereco.Logradouro;
-                    lblMostrarCidade.Text = endereco.Cidade;
+                    lblMostrarCidade.Text = endereco.Localidade;
                     lblMostrarBairro.Text = endereco.Bairro;
                     lblMostrarUF.Text = endereco.Uf;
                 }

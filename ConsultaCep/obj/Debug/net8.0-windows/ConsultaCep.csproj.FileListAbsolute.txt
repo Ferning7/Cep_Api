@@ -18,3 +18,4 @@ C:\Users\Aluno_Manha\source\repos\ConsultaCep\ConsultaCep\obj\Debug\net8.0-windo
 C:\Users\Aluno_Manha\source\repos\ConsultaCep\ConsultaCep\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
 C:\Users\Aluno_Manha\source\repos\ConsultaCep\ConsultaCep\obj\Debug\net8.0-windows\ConsultaCep.csproj.AssemblyReference.cache
 C:\Users\Aluno_Manha\source\repos\ConsultaCep\ConsultaCep\obj\Debug\net8.0-windows\Consulta.A95A85F1.Up2Date
+C:\Users\Aluno_Manha\source\repos\ConsultaCep\ConsultaCep\obj\Debug\net8.0-windows\ConsultaCep.sourcelink.json

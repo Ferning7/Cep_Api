@@ -12,7 +12,7 @@ namespace ConsultaCep
         private string logradouro;
         private string complemento;
         private string bairro;
-        private string cidade;
+        private string localidade;
         private string uf;
 
         public string Cep
@@ -35,10 +35,10 @@ namespace ConsultaCep
             get { return bairro; }
             set { bairro = value; }
         }
-        public string Cidade
+        public string Localidade
         {
-            get { return cidade; }
-            set { cidade = value; }
+            get { return localidade; }
+            set { localidade = value; }
         }
         public string Uf
         {
